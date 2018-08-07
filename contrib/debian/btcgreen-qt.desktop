@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Btcgreen
+Comment=Btcgreen P2P Cryptocurrency
+Comment[fr]=Btcgreen, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Btcgreen, eşten eşe kriptografik sanal para birimi
+Exec=btcgreen-qt %u
+Terminal=false
+Type=Application
+Icon=btcgreen128
+MimeType=x-scheme-handler/btcgreen;
+Categories=Office;Finance;

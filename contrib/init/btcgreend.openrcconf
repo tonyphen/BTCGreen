@@ -1,0 +1,27 @@
+# /etc/conf.d/btcgreend: config file for /etc/init.d/btcgreend
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/btcgreen/btcgreen.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/btcgreend"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/btcgreend.pid"
+
+# Where to write btcgreend data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/btcgreend"
+
+# User and group to own btcgreend process
+#BITCOIND_USER="btcgreen"
+#BITCOIND_GROUP="btcgreen"
+
+# Path to btcgreend executable
+#BITCOIND_BIN="/usr/bin/btcgreend"
+
+# Nice value to run btcgreend under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS="-disablewallet"
+
